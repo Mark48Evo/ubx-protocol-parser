@@ -1,0 +1,43 @@
+{
+  "name": "@mark48evo/ubx-protocol-parser",
+  "version": "1.0.0",
+  "description": "A SerialPort Parser for UBX Protocol",
+  "author": "Aurimas Niekis <aurimas@niekis.lt> (https://github.com/Mark48Evo)",
+  "license": "MIT",
+  "repository": "Mark48Evo/ubx-protocol-parser",
+  "contributors": [
+    {
+      "name": "Aurimas Niekis",
+      "email": "aurimas@niekis.lt"
+    }
+  ],
+  "module": "src/index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "rollup": "rollup -c rollup.config.js",
+    "lint": "eslint ./src ./bin",
+    "lint-fix": "eslint ./src ./bin --fix"
+  },
+  "files": [
+    "src/",
+    "dist/",
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {
+    "debug": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.51",
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/node": "^7.0.0-beta.51",
+    "@babel/plugin-external-helpers": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "rollup": "^0.61.2",
+    "rollup-plugin-babel": "^4.0.0-beta.7",
+    "rollup-plugin-eslint": "^4.0.0"
+  }
+}
