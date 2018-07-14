@@ -1,6 +1,6 @@
 {
   "name": "@mark48evo/ubx-protocol-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A SerialPort Parser for UBX Protocol",
   "author": "Aurimas Niekis <aurimas@niekis.lt> (https://github.com/Mark48Evo)",
   "license": "MIT",
