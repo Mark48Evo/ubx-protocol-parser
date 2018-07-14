@@ -1,3 +1,4 @@
+/* eslint-disable no-mixed-operators */
 /* eslint no-bitwise: "off" */
 /* eslint no-restricted-syntax: "off" */
 import Debug from 'debug';
